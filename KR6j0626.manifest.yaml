@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6j0626/v1
+canonical_location: https://kanripo.org/bkk/KR6j0626/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說安宅神呪經
+  identifiers:
+    alt_id:
+    - T21n1394
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1394.xml
+    old_id: T21n1394
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0626_000.yaml, hash: 'sha256:5d04ad0eb99785d19c57a2deb0b33ada14577167a65dffb34fc2141e8e35b2ab'}
+  - {seq: 1, filename: KR6j0626_001.yaml, hash: 'sha256:1576d111038de886baf6f179e05666870c669925712546229365ae7c80b1ed4a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0626_001.markers.yaml, hash: 'sha256:3729a900daa8da3d3205ad34f5ca6fddab041a5e6f4c756711912f4967078ea9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0626_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1560
+  label: 佛說安宅神呪經
+  type: juan
+  level: 1
+hash: sha256:927949a78da33276c6c683f8c78fb6967e81b8d68d16410b6a2216f27656fd25
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

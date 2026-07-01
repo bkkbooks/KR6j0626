@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0626/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0626/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說安宅神呪經
+  identifiers:
+    krp: KR6j0626
+    cbeta: T21n1394
+    cbeta_old_id: T21n1394
+    authorityid: CA0000088
+    json_key: T1394
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1394.xml
+    old_id: T21n1394
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0626_000-T.yaml, hash: 'sha256:5d04ad0eb99785d19c57a2deb0b33ada14577167a65dffb34fc2141e8e35b2ab'}
+  - {seq: 1, filename: KR6j0626_001-T.yaml, hash: 'sha256:a92e95f1e242daa1d6762ca25c7649db2fa1678ab813972c169d0981f12633bf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0626_000-T.markers.yaml, hash: 'sha256:468a16346c8d930845f7a7714ce0a00462c122ea944d03fe6817b0eb835bb609'}
+  - {seq: 1, role: markers, filename: assets/KR6j0626_001-T.markers.yaml, hash: 'sha256:6fa408d5191d028e1ad0052690119ebaf98dc6437d788d4df22ea789d31a013d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0626_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1560
+  label: 佛說安宅神呪經
+  type: juan
+  level: 1
+hash: sha256:4684222b44ea90773117b9eca182c666c59e00359d0bd638b8a7b5d27111c89f
