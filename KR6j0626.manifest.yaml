@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0626/v1
 canonical_location: https://kanripo.org/bkk/KR6j0626/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說安宅神呪經
   identifiers:
@@ -28,10 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0626_000.yaml, hash: 'sha256:5d04ad0eb99785d19c57a2deb0b33ada14577167a65dffb34fc2141e8e35b2ab'}
-  - {seq: 1, filename: KR6j0626_001.yaml, hash: 'sha256:a92e95f1e242daa1d6762ca25c7649db2fa1678ab813972c169d0981f12633bf'}
+  - {seq: 1, filename: KR6j0626_001.yaml, hash: 'sha256:242998cad51c91cd18ae1dd1d9f7e46647944f4d7ae7cf33cad6d7750d256405'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0626_000.markers.yaml, hash: 'sha256:d2b0eaa63c4ca3eddf90b98a617c8b27fb704e531ff81f08a2ccc9cbb32955a7'}
-  - {seq: 1, role: markers, filename: assets/KR6j0626_001.markers.yaml, hash: 'sha256:fdc1cd186e37302fb73ecdda1d80c62f30a8b38081c532b78aeeee44d4c281a3'}
+  - {seq: 1, role: markers, filename: assets/KR6j0626_001.markers.yaml, hash: 'sha256:4e7d2b2819a9bb539d52ea757b3d86b33c09e7b4a364bd886dfec090bf3dbcf2'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 佛說安宅神呪經
   type: juan
   level: 1
-hash: sha256:d9b49781d8e03944aa5662002c9068f195bc17b29199ece617ef0292b69a2690
+hash: sha256:fa0029995aeab9bf7c382235c060f115ac9517322ed94674fcb0a399e0ff05ed
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
